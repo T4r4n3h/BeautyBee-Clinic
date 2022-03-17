@@ -14,7 +14,7 @@ html{
 }
 
 body{
-
+    font-family: Optima;
 }
 
 
@@ -39,7 +39,6 @@ header{
     justify-content: space-between;
     margin-left: 4.37rem;
     margin-right: 4.37rem;
-  
     color: #54301A;
 }
 .bkgrdImage{
@@ -56,7 +55,7 @@ header{
     background-color: #d1e3e67d;
     height: 100%;
     border: 1px solid;
-    font-family: Optima;
+   
     
 }
 .message{
@@ -67,5 +66,17 @@ header{
     font-size:96px;
     background-color: pink;
 
+}
+.hero{
+    height:12.93rem ;
+    width:37%;
+    background-color: pink;
+    margin-left:686px;
+}
+.btn{
+    background-color:#E6EAF2;
+    width:30%;
+    border:none;
+    border-radius:50px;
 }
 
