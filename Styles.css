@@ -1,3 +1,6 @@
+* {
+ box-sizing: border-box;
+}
 html{
     background-image: radial-gradient(77.71% 153.67% at 75.94% 29.39%, #D8D4E6 0%, #D1E3E6 55.56%, #E6EAF2 100%); 
     background-repeat: no-repeat;
@@ -5,7 +8,7 @@ html{
 }
 @font-face{
     font-family:Typo;
-    src: url("/Static/Fonts/typo-hoop/Typo-Bold.otf")
+    src: url("/Static/Fonts/typo-hoop/Typo-Bold.otf");
     font-weight: 700;
 }
 @font-face {
@@ -14,12 +17,14 @@ html{
 }
 
 body{
+
     font-family: Optima;
+ 
 }
 
 
 nav{
-    background-color: pink;
+    /* background-color: pink; */
     width:15%;
     display:flex;
     justify-content: space-between;
@@ -28,9 +33,9 @@ nav{
 }
 
 .logo{
-    font-family: 'Reem Kufi', cursive;
+    font-family: Typo;
     font-size:2rem;
-    font-weight: 700;
+    /* font-weight: 700; */
 }
 
 header{
@@ -60,23 +65,40 @@ header{
 }
 .message{
     font-size:56px;
+    margin:0;
     background-color: blue;
+    color: #611C09
+    
 }
 .beauty{
     font-size:96px;
-    background-color: pink;
+    margin:0;
+    background-color: red;
 
 }
 .hero{
     height:12.93rem ;
     width:37%;
     background-color: pink;
-    margin-left:686px;
+    margin-left:auto;
+    margin-right:4.37rem;
+    margin-top: 19.81rem;
+}
+.since{
+    font-size: 24px;
+    line-height: 60px;
 }
 .btn{
+    font-size: 1.5rem;
+    font-family: Optima;
     background-color:#E6EAF2;
-    width:30%;
+    color: #611C09;
+    padding-left:4.5rem;
+    padding-right:4.5rem;
+    padding-top:1rem ;
+    padding-bottom:1rem ;
     border:none;
     border-radius:50px;
+    box-shadow:0px 8px 0px #C2B6D4 ;
 }
 
