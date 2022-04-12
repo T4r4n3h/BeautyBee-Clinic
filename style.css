@@ -4,12 +4,12 @@
 
 @font-face{
     font-family:Typo;
-    src: url("/Static/Fonts/typo-hoop/Typo-Bold.otf");
+    src: url("./Fonts/typo-hoop/Typo-Bold.otf");
     font-weight: 700;
 }
 @font-face {
     font-family: Optima;
-    src: url('/Static/Fonts/Optima/OPTIMA.TTF');
+    src: url('./Fonts/Optima/OPTIMA.TTF');
 }
 
 body{
@@ -62,7 +62,7 @@ header{
     background-repeat: no-repeat;
     background-size:contain;
     margin-top:2.5rem;
-    background-image:url('../static/images/Hero-Image.png');
+    background-image:url('./images/Hero-Image.png');
     /* background-color: yellow; */
     
 }
