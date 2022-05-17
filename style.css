@@ -1,8 +1,7 @@
 * {
  box-sizing: border-box;
 }
-
-@font-face{
+@font-face {
     font-family:Typo;
     src: url("./Fonts/typo-hoop/Typo-Bold.otf");
     font-weight: 700;
@@ -11,24 +10,23 @@
     font-family: Optima;
     src: url('./Fonts/Optima/OPTIMA.TTF');
 }
-
-body{
+body {
     background-image: radial-gradient(77.71% 153.67% at 75.94% 29.39%, #D8D4E6 0%, #D1E3E6 55.56%, #E6EAF2 100%); 
     background-repeat: no-repeat;
     font-family: Optima;
-    /* height: 100%; */
+    color:#54301A;
+
  
 }
 .container{
    margin-left:10%;
    margin-Right:10%;
-   /* border:1px solid red; */
+   border:1px solid red;
 }
-
-
 nav{
-   /* background-color: yellow; */
-    width:20%;
+   background-color: yellow;
+   font-size: 1.5rem;
+    width:30%;
     display:flex;
     justify-content: space-between;
     align-items: center;
@@ -38,99 +36,160 @@ nav a{
     text-decoration: none;
     color: #611C09;
 }
-
 .logo{
     font-family: Typo;
-    font-size:2rem;
-    /* font-weight: 700; */
+    font-size:2.5rem;
+    font-weight: 700;
 }
 
 header{
-    /* border: 1px solid blue; */
+    border: 1px solid blue;
     display:flex;
     justify-content: space-between;
     margin-left: 4.37rem;
     margin-right: 4.37rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     color: #54301A;
 }
-.bkgrdImg{
-    width: 79%;
-    height:70vh; 
-    position:absolute;
-    z-index: -2;  
-    opacity: 0.5;
-    background-repeat: no-repeat;
-    background-size:contain;
-    margin-top:2.5rem;
-    background-image:url('./images/Hero-Image.png');
-    /* background-color: yellow; */
-    
+.billboard{
+    width: 90%;
+    height: 60vh;
+    background-color:white;
+    display:inline-block;
+    border-radius:50px;
+    margin-top: 2.5rem;
+    margin-left: 4.37rem;
+    margin-right: 4.37rem;
+    padding-left: 7.3rem;
+
 }
-.cover{    
-    /* background-color: #e0d1e6da; */
-    /* height: 100%; */
-    /* border: 1px solid; */
-       
+
+.chryblsm{
+    /* background-color: #C2B6D4; */
+    height: 100%;
+    width: 55%;
+    margin-left:auto;
+    margin-top: -27.4rem;
+    background-image: url("/images/ChryBlsm.png");
+    background-repeat:no-repeat;
+    background-position: 100% ;
+    background-size:cover;
+    /* position:absolute; */
+    border-radius: 500px 50px 0px ;
+    /* z-index: -1; */
 }
+
+
 
 .message{
     font-size:3.5rem;
-    margin:0;
+    margin-top:5.3rem;
+    line-height: 110px; 
 }
 .beauty{
-    font-size:96px;
-    margin:0;  
+    font-size:6rem;
+    
 }
-.hero{
 
-    display:inline-block;
-    color: #611C09;
-    margin-left: 48.5%;
-    margin-top: 19.81rem;
-    /* border: 1px solid red; */
-}
-.since{
-    margin-top: 0;
-    font-size: 24px;
-    line-height: 60px;
-}
+
 .btn{
     font-size: 1.5rem;
+    line-height:3.1rem;
+
+
+
     font-family: Optima;
     background-color:#E6EAF2;
     color: #611C09;
-    padding-left:4.5rem;
-    padding-right:4.5rem;
-    padding-top:1rem ;
-    padding-bottom:1rem ;
+    padding:.5rem 1.9rem;
     border:none;
     border-radius:50px;
     box-shadow:0px 8px 0px #C2B6D4 ;
 }
-.mainTwo{
-    margin-left: 4.37rem;
-    margin-right: 4.37rem;
-    margin-top: 4.4rem;
-    /* border: 1px solid red; */
+.msg{
+    margin-left: 9.75rem;
+    width: 70%;
 }
-.services{
-    display:flex;
-    flex-wrap:wrap;
+.msg h1 {
+    line-height: 5.625rem;
+    font-size: 2.5rem;
+    color: purple;
+}
+.msg p {
+    font-family: 'Helvetica Neue';
+    font-size:1.5rem ;
+    line-height: 2.5rem;
+}
+.srvccards {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(128, 0, 128, 0.33);
+    width:80%;
+    display: flex;
     justify-content: space-between;
 
 }
-.service{
-    width: 30%;
-    height:7.43rem;
-    border-radius: 20px;
-    margin-bottom: 1rem;
-    box-shadow: 4px 8px 32px rgba(142, 162, 166, 0.3);
-    background-color:#E6EAF2 ;
-    text-align: center;
-    padding-top: 3.5rem;
+.srv-card {
+    width: 48%;
+    border-radius: 50px;
     
 }
-.service:hover:
-footer{
-    height:300px;
+
+.left {
+    background-color:blue;
+    
+    height:70vh;
+    
+    
 }
+.leftTop {
+    background-color: #C2B6D4;
+    height:62.5%;
+    margin-bottom:5%;
+    padding: 1rem 1.5rem 1.5rem 1rem;
+}
+.tleft-srvc-img {
+    border-radius: 30px;
+    background-color: blue;
+    background-image: url(/images/neutrotoxin.png);
+    background-repeat: no-repeat;
+    background-clip: border-box;
+    background-position: center;
+    background-size: cover;
+    height: 60%;
+    width: 100%;
+
+}
+.leftBtm {
+    background-color:beige;
+    height:32.5%;
+    
+}
+
+.right {
+    background-color:yellow;
+    height:70vh;
+}
+.rtTop {
+    height: 32.5%;
+    background-color: pink;
+    margin-bottom:5%;
+    
+}
+.rtBtm {
+    background-color: blueviolet;
+    height: 62.5%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.btmright, .btmleft{
+    /* width: 45%; */
+    background-color: beige;
+}
+
+ .testimonials {
+     height: 50vh;
+ }
