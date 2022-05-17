@@ -71,7 +71,7 @@ header{
     width: 55%;
     margin-left:auto;
     margin-top: -27.4rem;
-    background-image: url("/images/ChryBlsm.png");
+    background-image: url("./images/ChryBlsm.png");
     background-repeat:no-repeat;
     background-position: 100% ;
     background-size:cover;
@@ -129,6 +129,7 @@ header{
     display: flex;
     justify-content: space-between;
 
+    font-family: 'Optima';
 }
 .srv-card {
     width: 48%;
@@ -137,7 +138,7 @@ header{
 }
 
 .left {
-    background-color:blue;
+    /* background-color:blue; */
     
     height:70vh;
     
@@ -147,12 +148,13 @@ header{
     background-color: #C2B6D4;
     height:62.5%;
     margin-bottom:5%;
-    padding: 1rem 1.5rem 1.5rem 1rem;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+    border-radius: 30px;
 }
 .tleft-srvc-img {
     border-radius: 30px;
     background-color: blue;
-    background-image: url(/images/neutrotoxin.png);
+    background-image: url(./images/neutrotoxin.png);
     background-repeat: no-repeat;
     background-clip: border-box;
     background-position: center;
@@ -161,6 +163,19 @@ header{
     width: 100%;
 
 }
+.srv-header {
+    font-size:1.5rem;
+    font-weight: 700;
+
+}
+.srv-text{
+line-height: 1.5rem;
+}
+.lrn {
+    margin-top:0px;
+    text-decoration: none;
+}
+
 .leftBtm {
     background-color:beige;
     height:32.5%;
