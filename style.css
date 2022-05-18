@@ -9,6 +9,7 @@
 @font-face {
     font-family: Optima;
     src: url('./Fonts/Optima/OPTIMA.TTF');
+    font-weight: bold;
 }
 body {
     background-image: radial-gradient(77.71% 153.67% at 75.94% 29.39%, #D8D4E6 0%, #D1E3E6 55.56%, #E6EAF2 100%); 
@@ -91,8 +92,6 @@ header{
     font-size:6rem;
     
 }
-
-
 .btn{
     font-size: 1.5rem;
     line-height:3.1rem;
@@ -121,31 +120,41 @@ header{
     font-size:1.5rem ;
     line-height: 2.5rem;
 }
+
+.card{
+    box-shadow: 0px 8px 0px #B3D4CE;
+    border-radius: 25px;
+    background-color: #FFFFFF;
+
+}
+
+
+
+
 .srvccards {
+    /* background-color: rgba(128, 0, 128, 0.33); */
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(128, 0, 128, 0.33);
     width:80%;
     display: flex;
     justify-content: space-between;
-
     font-family: 'Optima';
+    height:75vh;
 }
 .srv-card {
     width: 48%;
-    border-radius: 50px;
-    
+    /* border-radius: 50px; */
 }
 
 .left {
     /* background-color:blue; */
     
-    height:70vh;
-    
     
 }
 .leftTop {
-    background-color: #C2B6D4;
+    
+    box-shadow: 0px 8px 0px #B3D4CE;
+    /* background-color:#ffffff; */
     height:62.5%;
     margin-bottom:5%;
     padding: 1rem 1.5rem 1.5rem 1.5rem;
@@ -153,7 +162,7 @@ header{
 }
 .tleft-srvc-img {
     border-radius: 30px;
-    background-color: blue;
+    /* background-color: blue; */
     background-image: url(../images/neutrotoxin.png);
     background-repeat: no-repeat;
     background-clip: border-box;
@@ -161,48 +170,80 @@ header{
     background-size: cover;
     height: 60%;
     width: 100%;
+    
+}
+.Bleft-srvc-img {
+    border-radius: 30px;
+    /* border:1px solid blue; */
+    background-image: url(../images/neutrotoxin.png);
 
+
+  
+    background-size: cover;
+    width: 60%;
+    height:90%;
+   
+}
+.BL-textbox {
+    width:45%;
 }
 .srv-header {
-    font-size:1.5rem;
-    font-weight: 700;
+    font-size:1rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-weight: bold;
 
 }
 .srv-text{
 line-height: 1.5rem;
+margin-bottom: 10px;
 }
 .lrn {
-    margin-top:0px;
+    font-weight: bolder;
     text-decoration: none;
-}
+    color:#C2B6D4;
 
+}
+.card-text{
+    /* border: 1px solid red; */
+    padding-left: 1rem;
+}
 .leftBtm {
-    background-color:beige;
+    /* background-color:#ffffff; */
     height:32.5%;
+    display: flex;
+    padding: 1.5rem 0rem 0rem .5rem;
     
 }
-
 .right {
-    background-color:yellow;
-    height:70vh;
+    /* background-color:yellow; */
+    /* height:70vh; */
 }
 .rtTop {
     height: 32.5%;
-    background-color: pink;
+    /* background-color: #ffffff; */
     margin-bottom:5%;
+    display: flex;
     
 }
 .rtBtm {
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     height: 62.5%;
     display: flex;
     justify-content: space-between;
 
 }
+.RB-img{
+    /* border-radius: 30px/ 0px; */
+    height: 37.5%;
+    background-image: url(../images/Dermafill.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 .btmright, .btmleft{
     /* width: 45%; */
-    background-color: beige;
+    /* background-color: beige; */
 }
 
  .testimonials {
