@@ -111,9 +111,11 @@ header{
     width: 70%;
 }
 .msg h1 {
-    line-height: 5.625rem;
+    /* line-height: 5.625rem; */
     font-size: 2.5rem;
+    font-weight: 300;
     color: purple;
+
 }
 .msg p {
     font-family: 'Helvetica Neue';
@@ -245,7 +247,85 @@ margin-bottom: 10px;
     /* width: 45%; */
     /* background-color: beige; */
 }
+.main2{
 
+    height: 50vh;
+    margin-top: 6rem;
+    border: 1px solid salmon;
+}
  .testimonials {
-     height: 50vh;
+     height:80%;
+     display:flex;
+     justify-content: space-around;
+
+ }
+ .main2 h1 {
+     display: inline-block;
+     margin-left:30%;
+     line-height: 5.625rem;
+     font-size: 2.5rem;
+     font-weight: 300;
+     color: purple;
+     /* margin-right: auto; */
+ }
+ .testCard{
+     width:18%;
+     height:75%;
+     border: 1px solid greenyellow;
+     border-radius: 30px;
+     background-image: url(./images/Testcover.png);
+     background-repeat: no-repeat;
+     box-shadow: 0px 8px 0px #B3D4CE;
+     background-color: #E6EAF2;
+ }
+ .testSvg{
+     margin-left:1.5rem;
+     margin-top: 1.5rem;
+     border:1px solid blue;
+
+ }
+
+ footer{
+     height:30vh;
+     background-color:#D8D4E6 ;
+     padding-top:2.8rem;
+     font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+     
+ }
+ .footwrapper{
+     width: 75%;
+     height:40%;
+     margin-top: 30px;
+     margin:auto;
+     /* border:1px solid orange; */
+     display:flex;
+     justify-content: space-between;
+ }
+ .cprt{
+     display: inline-block;
+     margin-top:2rem;
+     /* margin-top:2rem; */
+     /* margin-right:0; */
+     margin-left:35%;
+     /* border: 1px solid salmon; */
+ }
+ .cprt p{
+ }
+ .ftnav{
+     width:20%;
+     /* border: 2px solid greenyellow; */
+ }
+ .ftnav h3{
+     margin-top: 0;
+ }
+ .ftnav p{
+     font-size:14px;
+ }
+
+ .social{
+     display: flex;
+     justify-content: space-around;
+ }
+ .sociallink{
+     width: 32px;
  }
